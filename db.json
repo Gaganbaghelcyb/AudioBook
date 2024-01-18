@@ -1,0 +1,798 @@
+{
+  "user": [
+    {
+      "id": "7722",
+      "name": "gagan",
+      "userName": "gagan123",
+      "email": "gagansinghbaghel15@gmail.com",
+      "profileImage": "./mediaList/userProfileImages/user.png",
+      "password": "gagan@123",
+      "favourites": [
+        {
+          "bookName": "Atomic Habits",
+          "audioPath": "./mediaList/audiobooks/AtomicHabbitHindi.mp3",
+          "bookImage": "./mediaList/audiobookImages/AtomicHabits.jpeg",
+          "bookId": "1004",
+          "bookAuthor": "James Clear",
+          "bookDescription": "Tiny changes, remarkable results.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader7",
+              "rating": 4.8
+            },
+            {
+              "name": "Reader8",
+              "rating": 4.5
+            }
+          ],
+          "genre": "Motivation",
+          "id": "e024"
+        },
+        {
+          "bookName": "Harry Potter and the Sorcerers Stone",
+          "audioPath": "./mediaList/audiobooks/HarryPotterandthePhilosophersStoneOpeningScene.mp3",
+          "bookImage": "./mediaList/audiobookImages/HarryPotterAndTheSorcerersStoneAudiobook.jpeg",
+          "bookId": "1041",
+          "bookAuthor": "J.K. Rowling",
+          "bookDescription": "The first book in the beloved Harry Potter series, introducing readers to the magical world of Hogwarts.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader81",
+              "rating": 4.9
+            },
+            {
+              "name": "Reader82",
+              "rating": 4.8
+            }
+          ],
+          "genre": "Fantasy",
+          "id": "e081"
+        },
+        {
+          "bookName": "Educated",
+          "audioPath": "./mediaList/audiobooks/educated.mp3",
+          "bookImage": "./mediaList/audiobookImages/Educated.jpeg",
+          "bookId": "1006",
+          "bookAuthor": "Tara Westover",
+          "bookDescription": "Memoir of a woman who grows up in a strict household.",
+          "isPlaying": false,
+          "languagetype": "Hindi",
+          "ratings": [
+            {
+              "name": "Reader11",
+              "rating": 4.5
+            },
+            {
+              "name": "Reader12",
+              "rating": 4
+            }
+          ],
+          "genre": "Motivation",
+          "id": "e026"
+        },
+        {
+          "bookName": "Pet Sematary",
+          "audioPath": "./mediaList/audiobooks/ThePetSematary.mp3",
+          "bookImage": "./mediaList/audiobookImages/PetSematary.jpeg",
+          "bookId": "1037",
+          "bookAuthor": "Stephen King",
+          "bookDescription": "A horror novel about a burial ground with the power to bring the dead back to life.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader73",
+              "rating": 4.7
+            },
+            {
+              "name": "Reader74",
+              "rating": 4.5
+            }
+          ],
+          "genre": "Horror",
+          "id": "e087"
+        },
+        {
+          "bookName": "The Alchemist",
+          "audioPath": "./mediaList/audiobooks/TheAlchemistHindi.mp3",
+          "bookImage": "./mediaList/audiobookImages/TheAlchemist.jpeg",
+          "bookId": "1005",
+          "bookAuthor": "Paulo Coelho",
+          "bookDescription": "A novel about following your dreams.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader9",
+              "rating": 4.9
+            },
+            {
+              "name": "Reader10",
+              "rating": 5
+            }
+          ],
+          "genre": "Fantasy",
+          "id": "e025"
+        },
+        {
+          "bookName": "The 7 Habits of Highly Effective People",
+          "audioPath": "./mediaList/audiobooks/Sevenhabitsofeffective.mp3",
+          "bookImage": "./mediaList/audiobookImages/SevenHabbitsOfHighlyEffectivePeople.jpeg",
+          "bookId": "1032",
+          "bookAuthor": "Stephen R. Covey",
+          "bookDescription": "Seven habits for personal and professional effectiveness.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader65",
+              "rating": 4.7
+            },
+            {
+              "name": "Reader66",
+              "rating": 4.6
+            }
+          ],
+          "genre": "Motivation",
+          "id": "e062"
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "bookName": "The Power of Now",
+      "audioPath": "./mediaList/audiobooks/ThePowerofNowAnimated.mp3",
+      "bookImage": "./mediaList/audiobookImages/ThePowerOfNow.jpeg",
+      "bookId": "1001",
+      "bookAuthor": "Eckhart Tolle",
+      "bookDescription": "A guide to spiritual enlightenment.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader1",
+          "rating": 4.5
+        },
+        {
+          "name": "Reader2",
+          "rating": 5
+        }
+      ],
+      "genre": "Motivation",
+      "id": "e021"
+    },
+    {
+      "bookName": "Becoming",
+      "audioPath": "./mediaList/audiobooks/Becoming.mp3",
+      "bookImage": "./mediaList/audiobookImages/Becoming.jpeg",
+      "bookId": "1002",
+      "bookAuthor": "Michelle Obama",
+      "bookDescription": "Memoir of the former First Lady.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader3",
+          "rating": 4
+        },
+        {
+          "name": "Reader4",
+          "rating": 4.5
+        }
+      ],
+      "genre": "Motivation",
+      "id": "e022"
+    },
+    {
+      "bookName": "Sapiens",
+      "audioPath": "./mediaList/audiobooks/sapiens.mp3",
+      "bookImage": "./mediaList/audiobookImages/Sapiens.jpeg",
+      "bookId": "1003",
+      "bookAuthor": "Yuval Noah Harari",
+      "bookDescription": "A brief history of humankind.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader5",
+          "rating": 4.7
+        },
+        {
+          "name": "Reader6",
+          "rating": 5
+        }
+      ],
+      "genre": "Motivation",
+      "id": "e023"
+    },
+    {
+      "bookName": "Atomic Habits",
+      "audioPath": "./mediaList/audiobooks/AtomicHabbitHindi.mp3",
+      "bookImage": "./mediaList/audiobookImages/AtomicHabits.jpeg",
+      "bookId": "1004",
+      "bookAuthor": "James Clear",
+      "bookDescription": "Tiny changes, remarkable results.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader7",
+          "rating": 4.8
+        },
+        {
+          "name": "Reader8",
+          "rating": 4.5
+        }
+      ],
+      "genre": "Motivation",
+      "id": "e024"
+    },
+    {
+      "bookName": "The Alchemist",
+      "audioPath": "./mediaList/audiobooks/TheAlchemistHindi.mp3",
+      "bookImage": "./mediaList/audiobookImages/TheAlchemist.jpeg",
+      "bookId": "1005",
+      "bookAuthor": "Paulo Coelho",
+      "bookDescription": "A novel about following your dreams.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader9",
+          "rating": 4.9
+        },
+        {
+          "name": "Reader10",
+          "rating": 5
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e025"
+    },
+    {
+      "bookName": "Educated",
+      "audioPath": "./mediaList/audiobooks/educated.mp3",
+      "bookImage": "./mediaList/audiobookImages/Educated.jpeg",
+      "bookId": "1006",
+      "bookAuthor": "Tara Westover",
+      "bookDescription": "Memoir of a woman who grows up in a strict household.",
+      "isPlaying": false,
+      "languagetype": "Hindi",
+      "ratings": [
+        {
+          "name": "Reader11",
+          "rating": 4.5
+        },
+        {
+          "name": "Reader12",
+          "rating": 4
+        }
+      ],
+      "genre": "Motivation",
+      "id": "e026"
+    },
+    {
+      "bookName": "The Subtle Art of Not Giving a fuck",
+      "audioPath": "./mediaList/audiobooks/Becoming.mp3",
+      "bookImage": "./mediaList/audiobookImages/thesubtleartofnotgivingafuck.webp",
+      "bookId": "1007",
+      "bookAuthor": "Mark Manson",
+      "bookDescription": "A counterintuitive approach to living a good life.",
+      "isPlaying": false,
+      "languagetype": "Hindi",
+      "ratings": [
+        {
+          "name": "Reader13",
+          "rating": 4.2
+        },
+        {
+          "name": "Reader14",
+          "rating": 4.8
+        }
+      ],
+      "genre": "Motivation",
+      "id": "e027"
+    },
+    {
+      "bookName": "Born a Crime",
+      "audioPath": "./mediaList/audiobooks/bornaCrime.mp3",
+      "bookImage": "./mediaList/audiobookImages/BornaCrime.jpeg",
+      "bookId": "1008",
+      "bookAuthor": "Trevor Noah",
+      "bookDescription": "Autobiography of the comedian Trevor Noah.",
+      "isPlaying": false,
+      "languagetype": "Hindi",
+      "ratings": [
+        {
+          "name": "Reader15",
+          "rating": 4.6
+        },
+        {
+          "name": "Reader16",
+          "rating": 4.7
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e028"
+    },
+    {
+      "bookName": "Thinking, Fast and Slow",
+      "audioPath": "./mediaList/audiobooks/thinkingFastAndSlow.mp3",
+      "bookImage": "./mediaList/audiobookImages/ThinkingFastandSlow.jpeg",
+      "bookId": "1009",
+      "bookAuthor": "Daniel Kahneman",
+      "bookDescription": "A Nobel laureate's exploration of the mind.",
+      "isPlaying": false,
+      "languagetype": "Hindi",
+      "ratings": [
+        {
+          "name": "Reader17",
+          "rating": 4.8
+        },
+        {
+          "name": "Reader18",
+          "rating": 4.9
+        }
+      ],
+      "genre": "Motivation",
+      "id": "e029"
+    },
+    {
+      "bookName": "The Great Gatsby",
+      "audioPath": "./mediaList/audiobooks/Becoming.mp3",
+      "bookImage": "./mediaList/audiobookImages/TheGreatGatsby.jpeg",
+      "bookId": "1010",
+      "bookAuthor": "F. Scott Fitzgerald",
+      "bookDescription": "A classic American novel of love and ambition.",
+      "isPlaying": false,
+      "languagetype": "Hindi",
+      "ratings": [
+        {
+          "name": "Reader19",
+          "rating": 4.5
+        },
+        {
+          "name": "Reader20",
+          "rating": 4.6
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e030"
+    },
+    {
+      "bookName": "The Hitchhiker's Guide to the Galaxy",
+      "audioPath": "./mediaList/audiobooks/TheHitchhiker'sGuidetotheGalaxy .mp3",
+      "bookImage": "./mediaList/audiobookImages/TheHitchhikersGuidetotheGalaxy.jpeg",
+      "bookId": "1003",
+      "bookAuthor": "Douglas Adams",
+      "bookDescription": "A fantasy series about human and his alien friend's adventures.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader5",
+          "rating": 4.2
+        },
+        {
+          "name": "Reader6",
+          "rating": 4.5
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e051"
+    },
+    {
+      "bookName": "To Kill a Mockingbird",
+      "audioPath": "./mediaList/audiobooks/ToKillaMockingbird.mp3",
+      "bookImage": "./mediaList/audiobookImages/ToKillAMockingBird.jpeg",
+      "bookId": "1004",
+      "bookAuthor": "Harper Lee",
+      "bookDescription": "A novel exploring racial injustice and moral growth",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader7",
+          "rating": 4.8
+        },
+        {
+          "name": "Reader8",
+          "rating": 4.6
+        }
+      ],
+      "genre": "Horror",
+      "id": "e054"
+    },
+    {
+      "bookName": "1984",
+      "audioPath": "./mediaList/audiobooks/1984.mp3",
+      "bookImage": "./mediaList/audiobookImages/1984.jpeg",
+      "bookId": "1005",
+      "bookAuthor": "George Orwell",
+      "bookDescription": "A novel depicting a totalitarian society and government overreach.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader9",
+          "rating": 4.7
+        },
+        {
+          "name": "Reader10",
+          "rating": 4.9
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e055"
+    },
+    {
+      "bookName": "The Catcher in the Rye",
+      "audioPath": "./mediaList/audiobooks/CatcherintheRye.mp3",
+      "bookImage": "./mediaList/audiobooks/TheCatcherInTheRye.jpeg",
+      "bookId": "1007",
+      "bookAuthor": "J.D. Salinger",
+      "bookDescription": "A coming-of-age novel narrated by a disenchanted teenager.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader13",
+          "rating": 4.6
+        },
+        {
+          "name": "Reader14",
+          "rating": 4.2
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e057"
+    },
+    {
+      "bookName": "Brave New World",
+      "audioPath": "./mediaList/audiobooks/BraveNewWorld.mp3",
+      "bookImage": "./mediaList/audiobookImages/BraveNewWorld.jpeg",
+      "bookId": "1009",
+      "bookAuthor": "Aldous Huxley",
+      "bookDescription": "A dystopian novel exploring a future society",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader19",
+          "rating": 4.7
+        },
+        {
+          "name": "Reader20",
+          "rating": 4.5
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e059"
+    },
+    {
+      "bookName": "The Hobbit",
+      "audioPath": "./mediaList/audiobooks/TheHobbit .mp3",
+      "bookImage": "./mediaList/audiobookImages/TheHobbit.jpeg",
+      "bookId": "1010",
+      "bookAuthor": "J.R.R. Tolkien",
+      "bookDescription": "A fantasy novel that follows the journey of Bilbo Baggins.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader21",
+          "rating": 4.8
+        },
+        {
+          "name": "Reader22",
+          "rating": 4.6
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e050"
+    },
+    {
+      "bookName": "The Silent Patient",
+      "audioPath": "./mediaList/audiobooks/TheSilentPatient.mp3",
+      "bookImage": "./mediaList/audiobookImages/TheSilentPatient.jpeg",
+      "bookId": "1011",
+      "bookAuthor": "Alex Michaelides",
+      "bookDescription": "A woman's act of sudden violence and her subsequent silence.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader23",
+          "rating": 4.6
+        },
+        {
+          "name": "Reader24",
+          "rating": 4.8
+        }
+      ],
+      "genre": "Horror",
+      "id": "e061"
+    },
+    {
+      "bookName": "The Girl on the Train",
+      "audioPath": "./mediaList/audiobooks/TheGirlontheTrain.mp3",
+      "bookImage": "./mediaList/audiobookImages/TheGirlOnTheTrain .jpeg",
+      "bookId": "1013",
+      "bookAuthor": "Paula Hawkins",
+      "bookDescription": "The lives of three women intertwined by a train journey.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader27",
+          "rating": 4.5
+        },
+        {
+          "name": "Reader28",
+          "rating": 4.2
+        }
+      ],
+      "genre": "Horror",
+      "id": "e063"
+    },
+    {
+      "bookName": "The 7 Habits of Highly Effective People",
+      "audioPath": "./mediaList/audiobooks/Sevenhabitsofeffective.mp3",
+      "bookImage": "./mediaList/audiobookImages/SevenHabbitsOfHighlyEffectivePeople.jpeg",
+      "bookId": "1032",
+      "bookAuthor": "Stephen R. Covey",
+      "bookDescription": "Seven habits for personal and professional effectiveness.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader65",
+          "rating": 4.7
+        },
+        {
+          "name": "Reader66",
+          "rating": 4.6
+        }
+      ],
+      "genre": "Motivation",
+      "id": "e062"
+    },
+    {
+      "bookName": "Psycho",
+      "audioPath": "./mediaList/audiobooks/Psycho .mp3",
+      "bookImage": "./mediaList/audiobookImages/Psycho.jpeg",
+      "bookId": "1036",
+      "bookAuthor": "Robert Bloch",
+      "bookDescription": "A psychological horror novel that inspired the classic Hitchcock film.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader71",
+          "rating": 4.6
+        },
+        {
+          "name": "Reader72",
+          "rating": 4.4
+        }
+      ],
+      "genre": "Horror",
+      "id": "e066"
+    },
+    {
+      "bookName": "Pet Sematary",
+      "audioPath": "./mediaList/audiobooks/ThePetSematary.mp3",
+      "bookImage": "./mediaList/audiobookImages/PetSematary.jpeg",
+      "bookId": "1037",
+      "bookAuthor": "Stephen King",
+      "bookDescription": "A horror novel about a burial ground with the power to bring the dead back to life.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader73",
+          "rating": 4.7
+        },
+        {
+          "name": "Reader74",
+          "rating": 4.5
+        }
+      ],
+      "genre": "Horror",
+      "id": "e087"
+    },
+    {
+      "bookName": "Harry Potter and the Sorcerers Stone",
+      "audioPath": "./mediaList/audiobooks/HarryPotterandthePhilosophersStoneOpeningScene.mp3",
+      "bookImage": "./mediaList/audiobookImages/HarryPotterAndTheSorcerersStoneAudiobook.jpeg",
+      "bookId": "1041",
+      "bookAuthor": "J.K. Rowling",
+      "bookDescription": "The first book in the beloved Harry Potter series, introducing readers to the magical world of Hogwarts.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader81",
+          "rating": 4.9
+        },
+        {
+          "name": "Reader82",
+          "rating": 4.8
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e081"
+    },
+    {
+      "bookName": "The Name of the Wind",
+      "audioPath": "./mediaList/audiobooks/TheNameOfTheWind.mp3",
+      "bookImage": "./mediaList/audiobookImages/TheNameOfTheWind.jpeg",
+      "bookId": "1042",
+      "bookAuthor": "Patrick Rothfuss",
+      "bookDescription": "An epic fantasy novel narrating the life story of the legendary figure Kvothe.",
+      "isPlaying": false,
+      "languagetype": "English",
+      "ratings": [
+        {
+          "name": "Reader83",
+          "rating": 4.7
+        },
+        {
+          "name": "Reader84",
+          "rating": 4.6
+        }
+      ],
+      "genre": "Fantasy",
+      "id": "e082"
+    }
+  ],
+  "currentUser": [
+    {
+      "id": "7722",
+      "name": "gagan",
+      "userName": "gagan123",
+      "email": "gagansinghbaghel15@gmail.com",
+      "profileImage": "./mediaList/userProfileImages/user.png",
+      "password": "gagan@123",
+      "favourites": [
+        {
+          "bookName": "Atomic Habits",
+          "audioPath": "./mediaList/audiobooks/AtomicHabbitHindi.mp3",
+          "bookImage": "./mediaList/audiobookImages/AtomicHabits.jpeg",
+          "bookId": "1004",
+          "bookAuthor": "James Clear",
+          "bookDescription": "Tiny changes, remarkable results.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader7",
+              "rating": 4.8
+            },
+            {
+              "name": "Reader8",
+              "rating": 4.5
+            }
+          ],
+          "genre": "Motivation",
+          "id": "e024"
+        },
+        {
+          "bookName": "Harry Potter and the Sorcerers Stone",
+          "audioPath": "./mediaList/audiobooks/HarryPotterandthePhilosophersStoneOpeningScene.mp3",
+          "bookImage": "./mediaList/audiobookImages/HarryPotterAndTheSorcerersStoneAudiobook.jpeg",
+          "bookId": "1041",
+          "bookAuthor": "J.K. Rowling",
+          "bookDescription": "The first book in the beloved Harry Potter series, introducing readers to the magical world of Hogwarts.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader81",
+              "rating": 4.9
+            },
+            {
+              "name": "Reader82",
+              "rating": 4.8
+            }
+          ],
+          "genre": "Fantasy",
+          "id": "e081"
+        },
+        {
+          "bookName": "Educated",
+          "audioPath": "./mediaList/audiobooks/educated.mp3",
+          "bookImage": "./mediaList/audiobookImages/Educated.jpeg",
+          "bookId": "1006",
+          "bookAuthor": "Tara Westover",
+          "bookDescription": "Memoir of a woman who grows up in a strict household.",
+          "isPlaying": false,
+          "languagetype": "Hindi",
+          "ratings": [
+            {
+              "name": "Reader11",
+              "rating": 4.5
+            },
+            {
+              "name": "Reader12",
+              "rating": 4
+            }
+          ],
+          "genre": "Motivation",
+          "id": "e026"
+        },
+        {
+          "bookName": "Pet Sematary",
+          "audioPath": "./mediaList/audiobooks/ThePetSematary.mp3",
+          "bookImage": "./mediaList/audiobookImages/PetSematary.jpeg",
+          "bookId": "1037",
+          "bookAuthor": "Stephen King",
+          "bookDescription": "A horror novel about a burial ground with the power to bring the dead back to life.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader73",
+              "rating": 4.7
+            },
+            {
+              "name": "Reader74",
+              "rating": 4.5
+            }
+          ],
+          "genre": "Horror",
+          "id": "e087"
+        },
+        {
+          "bookName": "The Alchemist",
+          "audioPath": "./mediaList/audiobooks/TheAlchemistHindi.mp3",
+          "bookImage": "./mediaList/audiobookImages/TheAlchemist.jpeg",
+          "bookId": "1005",
+          "bookAuthor": "Paulo Coelho",
+          "bookDescription": "A novel about following your dreams.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader9",
+              "rating": 4.9
+            },
+            {
+              "name": "Reader10",
+              "rating": 5
+            }
+          ],
+          "genre": "Fantasy",
+          "id": "e025"
+        },
+        {
+          "bookName": "The 7 Habits of Highly Effective People",
+          "audioPath": "./mediaList/audiobooks/Sevenhabitsofeffective.mp3",
+          "bookImage": "./mediaList/audiobookImages/SevenHabbitsOfHighlyEffectivePeople.jpeg",
+          "bookId": "1032",
+          "bookAuthor": "Stephen R. Covey",
+          "bookDescription": "Seven habits for personal and professional effectiveness.",
+          "isPlaying": false,
+          "languagetype": "English",
+          "ratings": [
+            {
+              "name": "Reader65",
+              "rating": 4.7
+            },
+            {
+              "name": "Reader66",
+              "rating": 4.6
+            }
+          ],
+          "genre": "Motivation",
+          "id": "e062"
+        }
+      ]
+    }
+  ]
+}

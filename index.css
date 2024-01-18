@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition-duration: .1s;
+
+  }
+
+::-webkit-scrollbar {
+  width: 5px;
+  padding-top: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: black; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+  
+  body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .textCenter{
+    padding: 10px 0px;
+    text-align: center;
+  }
+  .flex{
+    display: flex;
+  }
+
+  .imageRound{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+  }
+
+  #profileBar{
+    display: flex;
+  }
+
+.audioPlayerstyl{
+  width: 80%;
+  margin: auto;
+  border-radius: 0px;
+   
+}
+  audio::-webkit-media-controls-panel {
+    background-color: #333;
+    color: #fff;
+ 
+  }
+
+  audio::-webkit-media-controls-timeline {
+    background-color: #66666600;
+  
+   
+  
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #999;
+    /* Add more styles as needed */
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+  }
+  .topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+  }
+  .topbar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .navbar ul {
+    display:flex;
+    list-style: none;
+  }
+  .topbar .navbar ul li {
+    display: flex;
+    align-items: center;
+    margin: 0px 8px;
+  }
+  .topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #FF6600;
+  }
+  .topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+  }
+  .topbar .navbar button {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 16px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .topbar .navbar button:hover{
+    background-color: #FF6600;
+    color: #000000;
+  }
+  .spotify-playlists {
+    padding: 20px 40px;
+  }
+  .spotify-playlists h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+  }
+  .spotify-playlists .list {
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+  }
+  .spotify-playlists .list .item {
+    position:relative;
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    border: 1px solid #ffffff10;
+  }
+  .spotify-playlists .list .item:hover {
+    background-color: #252525;
+  }
+  .spotify-playlists .list .item img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+
+  .spotify-playlists .list .item .hoverOrange{
+    font-size: 16px;
+  }
+
+  .spotify-playlists .list .item .hoverOrange:hover{
+    color: #FF6600;
+  }
+
+
+
+
+  .spotify-playlists .list .item .play {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  .spotify-playlists .list .item .play .fa {
+    position: static;
+    right: 50%;
+    top: 50%;
+    padding: 18px;
+    background-color: #FF6600;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  .spotify-playlists .list .item:hover .play .fa {
+    opacity: 1;
+    transform: translateY(-35px);
+  }
+  .justifybet{
+    justify-content: space-between;
+
+  }
+
+
+
+
+
+
+
+  .spotify-playlists .list .item h4 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .spotify-playlists .list .item p {
+    color: #989898;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .spotify-playlists hr {
+    margin: 70px 0px 0px;
+    border-color: #636363;
+  }
+
+  .preview {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .preview h6 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .preview p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .preview button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+
+.search-box {
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 5px;
+
+}
+
+.search-box:hover > .search-text{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+  background: #FF6600;
+  color: black;
+
+}
+
+.search-btn {
+  color: #ffffff;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.search-text {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* play button  */
+
+
+
+
+
+.mobilenavbar{
+  position:absolute;
+  bottom:0;
+  right:0;
+  top:0;
+  width:100%;
+  height: 100%;
+  display:flex;
+  background-color:#212121;
+  z-index: 50;
+  text-align:center;
+  transform: translateX(-100%);
+}
+
+.mobilenavbar ul{
+  list-style-type: none; 
+  width:100%;
+  color:white;
+}
+
+.mobilenavbar ul li{
+  padding: 30px;
+}
+
+.mobilenavbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.carrier{
+  padding: 10px 100px;
+}
+
+
+
+
+
+#Ham{
+  display:none;
+}
+.fa-bars{
+  color:white
+}
+#webnav{
+  display:flex;
+}
+
+
+@media screen and (max-width:700px){
+  
+.carrier{
+  padding: 5px 10px;
+}
+  
+#Ham{
+  display:flex;
+
+}
+#webnav{
+  display:none;
+}
+
+}
+
+
+
+
+
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: #FF6600;
+  padding: 15px ;
+}

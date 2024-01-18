@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+      <div class="mobilenavbar">
+        <ul>
+          <li onclick="hideNav()">
+            <a href="#">Back</a>
+          </li>
+          <div id="mobilenavdyn">
+
+          </div>
+
+        </ul>
+
+      </div>
+        <div class="main-container">
+          <div class="topbar">
+            <div class = 'search-box'>
+              <input id="searchBar" class = "search-text" type="text" placeholder = "Search Anything">
+            <a href="#"  onclick="addSearchele()" class = "search-btn">
+              <i class="fas fa-search"></i>
+            </a>           
+          </div>    
+            <div class="navbar">
+              <ul id="webnav" class="flex ">
+                <li>
+                  <a onclick="languageSearch('Hindi')" href="#">Hindi</a>
+                </li>
+                <li>
+                  <a onclick="languageSearch('English')" href="#">English</a>
+                </li>
+                <li id="navlogin">
+
+                </li>
+
+
+                <li class="divider">|</li>
+                <li id="profileBar">
+                    <a href="/login.html"><button type="button" >LogIn</button></a>
+                    <a href="/signup.html"><button type="button" >Signup</button></a>
+                </li>
+              </ul>
+              <ul id="Ham">
+                <div onclick="showNav()">
+                  <div><i class='fa fa-bars' style='color:white'></i></div>
+                </div>
+              </ul>
+            </div>
+          </div>
+
+          <div class="textCenter">
+            <h2 style="color:#FF6600 ;padding: 5px 0px;" id="playingAudioHeading"></h2>
+            <audio style="padding: 30px 0px;" class="audioPlayerstyl" id="audioPlayer" src="./mediaList/audiobooks/Becoming.mp3" controls></audio>
+          </div>
+          
+        
+
+          <div class="carrier">
+            <div style="background-color: #ff660026;
+            border-radius: 40px;" class="spotify-playlists">
+              <h2 id="searchHeading"></h2>
+              <div id="searchs" class="list">
+
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="carrier allbooks">
+
+        
+                      <div class="spotify-playlists">
+
+                        <h2>Focus</h2>
+                        <div class="list">
+                          <div class="item">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+                            <div class="play">
+                              <span class="fa fa-play"></span>
+                            </div>
+                            <h4>Peaceful Piano</h4>
+                            <p>Relax and indulge with beautiful piano pieces </p>
+                            <div class="flex justifybet">
+                              <p>artist</p>
+                              <p>favourit</p>
+                          </div>
+
+                        </div>
+                      </div>
+          </div>
+
+        </div>
+        <div class="footer">
+
+          @2024
+
+        </div>
+
+
+
+        <script
+          src="https://kit.fontawesome.com/23cecef777.js"
+          crossorigin="anonymous"
+        ></script>
+        <script src="script.js"></script>
+
+</body>
+</html>
